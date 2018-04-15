@@ -1,0 +1,15 @@
+baseURL = "http://kentaktwo.github.io/"
+languageCode = "ja-jp"
+title = "kentaktwo blog"
+publishDir = "public"
+theme = "nederburg"
+hasCJKLanguage = true
+pagenate = 10
+pagenatePath = "page"
+
+[params]
+  slogan = "Improve my English skill"
+  author = "kentaktwo"
+
+[permalinks]
+  post = "/:year/:month/:title/"
